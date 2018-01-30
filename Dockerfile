@@ -5,8 +5,8 @@ RUN curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s
 RUN chmod a+x kubectl
 
 ADD https://raw.githubusercontent.com/kubernetes/helm/master/scripts/get /usr/local/bin/gethelm
-RUN chmod a+x /usr/local/bin/gethelm && gethelm -v latest
-
+RUN chmod a+x /usr/local/bin/gethelm
+RUN gethelm -v latest
 
 FROM alpine:3.7
 
