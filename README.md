@@ -1,4 +1,4 @@
-# kubectl, helm, aws SDK
+# kubectl, helm, AWS SDK on alpine linux
 
 There wasn't an image that did this, so now there is
 
